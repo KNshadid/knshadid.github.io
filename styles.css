@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.dashboard, .metrics, .posts, .charts {
+    margin-top: 20px;
+}
+
+.metric, .post, .post-detail, .chart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.metric {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+}
+
+.metric p {
+    margin: 0;
+}
+
+.post a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.charts .chart {
+    height: 200px; /* Adjust based on actual chart library and requirements */
+}
+.url-form {
+    margin-bottom: 20px;
+}
+
+.url-form form {
+    display: flex;
+    align-items: center;
+}
+
+.url-form input[type="url"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.url-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.url-form button:hover {
+    background-color: #0056b3;
+}
